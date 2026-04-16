@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Para Ti 💕</title>
+
+<link rel="stylesheet" href="../CSS/styles.css">
+
+</head>
+<body>
+
+<header>
+<h1>Para Ti 💕</h1>
+<p>10 cosas que quiero decirte</p>
+</header>
+
+<div class="container">
+
+<div class="card">
+<h2> Quiero decirte que:</h2>
+<p>
+No sé cómo explicarlo,<br>
+pero contigo todo se siente diferente,<br>
+los días son más suaves,<br>
+las risas más largas,<br>
+y los abrazos se sienten como hogar.
+</p>
+<img src="../IMG/1.jpg">
+</div>
+
+<div class="card">
+<h2> Cosas que amo de ti</h2>
+<p>
+Amo tu forma de hablarme.<br>
+Amo cuando te ríes.<br>
+Amo cómo me haces sentir.<br>
+Amo tu sonrisa.<br>
+Amo que seas tú.
+</p>
+<img src="../IMG/2.jpg">
+</div>
+
+<div class="card">
+<h2> Mensajito bonis</h2>
+<p>
+Si algún día dudas de cuánto te quiero,
+abre esta página.
+Aquí está todo lo que siento por ti.
+</p>
+<img src="../IMG/3.jpg">
+</div>
+
+<div class="card">
+<h2> Porque te amo?</h2>
+<p>
+Eres mi casualidad favorita,
+mi pensamiento constante,
+mi persona especial,
+mi lugar seguro.
+</p>
+<img src="../IMG/4.jpg">
+</div>
+
+<div class="card">
+<h2> frasesitas pa ti </h2>
+<p>
+Contigo quiero todo.<br>
+Me encantas.<br>
+Eres mi persona favorita.<br>
+Tus abrazos son mi paz.
+</p>
+<img src="../IMG/5.jpg">
+</div>
+
+<div class="card">
+<h2> dedicado a que..</h2>
+<p>
+No eres solo mi novio,
+eres mi apoyo, mi alegría
+y mi lugar favorito.
+</p>
+<img src="../IMG/6.jpg">
+</div>
+
+<div class="card">
+<h2> Me gusta cuando...</h2>
+<p>
+Me gusta cuando me abrazas.<br>
+Me gusta cuando me haces reír.<br>
+Me gusta cuando estás conmigo.
+</p>
+<img src="../IMG/7.jpeg">
+</div>
+
+<div class="card">
+<h2>Poemita</h2>
+<p>
+No necesito un cuento perfecto,
+solo necesito tu mano
+junto a la mía.
+</p>
+<img src="../IMG/8.png">
+</div>
+
+<div class="card">
+<h2> 10 razones para estar contigo</h2>
+<p>
+Porque me haces sonreír.<br>
+Porque me escuchas.<br>
+Porque me cuidas.<br>
+Porque me haces feliz.<br>
+Porque contigo me siento tranquilo.<br>
+Porque siempre estás cuando te necesito.<br>
+Porque me haces reír incluso en días malos.<br>
+Porque me apoyas en todo.<br>
+Porque me haces sentir especial.<br>
+Porque contigo todo es más bonito.<br>
+</p>
+<img src="../IMG/9.jpg">
+</div>
+
+<div class="card">
+<h2> Amor</h2>
+<p>
+Mientras estés aquí,
+seguiré queriéndote bonito,
+todos los días.
+</p>
+<img src="../IMG/10.jpg">
+</div>
+
+</div>
+
+<footer>
+Hecho con amor 💗
+</footer>
+
+<script>
+function crearCorazon(){
+const heart=document.createElement("div");
+heart.classList.add("heart");
+heart.innerHTML="💗";
+heart.style.left=Math.random()*100+"vw";
+heart.style.animationDuration=(Math.random()*3+3)+"s";
+document.body.appendChild(heart);
+
+setTimeout(()=>{
+heart.remove();
+},6000);
+}
+
+setInterval(crearCorazon,400);
+</script>
+
+</body>
+</html>
